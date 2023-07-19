@@ -1,0 +1,242 @@
+﻿body{
+    margin: 0;
+    background-color: azure;
+}
+
+button{
+    border-radius: 1vw;
+  
+    right:15vw;
+    top:15vw;   
+   
+}
+.button:active{
+
+background-color: #db0d11;
+
+}
+#on{
+    background-color:antiquewhite;
+    background-repeat: no-repeat;
+
+}
+#off{
+    background-color: rgba(0, 0, 0, 0.541);
+    border: 1px solid #aaaaaa;
+    border-radius: 1vw;
+}
+#contener{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 2vw;
+
+}
+#title{
+    position: absolute;
+    /* background-color: #880101; */
+    right: 3vw;
+    top: 0.5vw;
+    width: 60vw;
+    height: 3vw;
+    font-size: 2.8vw;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: .1vw .1vw .2vw #000000;
+    color: #234e39;
+}
+
+ul{
+    list-style: none;
+}
+.parametry{
+        position: absolute;
+        background-color:antiquewhite;
+        border: 1px solid #aaaaaa;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-radius: 1vw;
+        box-shadow: .2vw .2vw .5vw #000000;
+        left: 5vw;
+        top: 17vw;
+        font-size: 1,5vw;
+        width: 22vw;
+        height: 18vw;
+        text-align:left;
+        list-style: none;  
+    }
+#dom{
+    position: absolute;
+     background-image: url('https://zapodaj.net/images/5f8bf9a913b6c.png?fbclid=IwAR2WhPMPFYqSpEp6NXIBJAg25EcFbkGcVlJx_wApc_ztuzJt5WtSr8P_xrA');
+     background-position: center;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     margin: 2vw;
+     right: 2vw;
+     top: 20vw;
+     width: 50vw;
+     height: 45vw;
+     filter: drop-shadow(.2vw .2vw .4vw #000000);
+    }
+
+
+.navi{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.541);
+    border: 1px solid #aaaaaa;
+    border-radius: 1vw;
+    box-shadow: .2vw .2vw .5vw #000000;
+    left: 18vw;
+    width: 15vw;
+    height: 10vw;
+}
+#navi1{ top: 18vw; }
+#navi2{ top: 31vw; }
+
+.temp{
+    position: absolute;
+    /* background-color: aliceblue; */
+    padding-right: 0.5vw;
+    width: 9vw;
+    height: 3.0vw;
+    font-size: 2.8vw;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(37, 211, 255);
+    margin-top: 2vw;
+    text-shadow: .1vw .1vw .2vw #000000;
+}
+.wilg{
+    position: absolute;
+    /* background-color: aliceblue; */
+    padding-right: 0.5vw;
+    width: 9vw;
+    height: 2.5vw;
+    font-size: 2.0vw;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(0, 255, 34);
+    margin-top: 6vw;
+    text-shadow: .1vw .1vw .2vw #000000;
+}
+
+#bt_up1,#bt_up2,#bt_dw1,#bt_dw2{
+    position: absolute;
+    background-image: url('https://zapodaj.net/images/0248d8b91f30b.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3vw;
+    margin-left: 11vw;
+    margin-top: 0.5vw;
+    cursor: pointer;
+    filter: drop-shadow(.1vw .1vw .2vw #000000);
+}
+
+#bt_up1,#bt_up2{
+    rotate: 180deg;
+    margin-top: 1vw;
+}
+
+img{
+    background-color: #000000;
+    size: 12vw;
+}
+
+#bt_up1:active, #bt_up2:active, #bt_dw1:active, #bt_dw2:active{
+    filter: hue-rotate(180deg);
+}
+#temp1_nastawa, #temp2_nastawa{
+    /* background-color: blue; */
+    width: 3vw;
+    height: 1.4vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: .1vw .1vw .2vw #000000;
+    color: #ffffff;
+    margin-top: 4.5vw;
+    margin-left: 11vw;
+}
+
+#podlogowka1, #podlogowka2{
+    position: absolute;
+    background-color: #00b7ff;
+    width: 38vw;
+    height: .3vw;
+    border: 1px solid #000000;
+    border-radius: .2vw;
+    margin-left: 6vw;    
+}
+#podlogowka1{ top: 29.5vw; }
+#podlogowka2{ top: 42.2vw; }
+
+
+#czujnik_zew{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.541);
+    border: 1px solid #aaaaaa;
+    border-radius: 1vw;
+    box-shadow: .2vw .2vw .5vw #000000;
+    right: 3vw;
+    top: 17vw;
+    width: 15vw;
+    height: 10vw;
+}
+#tz_txt{
+    /* background-color: #880101; */
+    position: absolute;
+    margin-top: .3vw;
+    color:#ff9900;
+    width: 99%;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+}
+.my-icon{
+    margin:3vw;
+    font-size: 1,5vw;
+    color: #ff0000;
+}
+
+#wykres{
+    position: absolute;
+    /* background-color: #000000; */
+    border: 1px solid #aaaaaa;
+    width: 48vw;
+    height: 15vw;
+    top: 30vw;
+    right: 2vw;
+    box-shadow: .2vw .2vw .5vw #000000;
+
+}
+
+
+
+/* ------- miganie -------- */
+
+.blink_1 {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: blink_1;
+}
+@keyframes blink_1 {
+    0% { background-color: #880101; }
+    50% { background-color: #ff9900; }
+    100% { background-color: #880101; }
+}
+.btn_on{
+	background-color: #db0d11;
+}
+.btn_off{
+	background-color: #269c19;
+}
+
+.btn_heat{
+	background-color: #db970d;
+}
+
+.btn_no_heat{
+	background-color: #220ddb;
+}

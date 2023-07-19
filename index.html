@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Strona</title>
+    <meta charset="UTF-8"/>
+	<link rel="stylesheet" href="style" type="text/css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+</div>
+<div id='contener'>
+    <button id="on">LED Włącz</button>
+    <button id="off">LED Wyłącz</button><br>
+	<button id="zezwolenie" >Zezwolenie na zmiane</button><br>
+	<button id="podlogowka1Wlacz">Pod1 Włącz</button>
+	
+	<button id="podlogowka2Wlacz" >Pod2 Włącz</button>
+	
+    <div class="parametry">
+            <div id="data"></div>
+            <div id="czas"></div>
+            <div id="daneIp">Dane IP: </div>
+            <div id="czasNtp"><i class="fa-regular fa-clock"></i> Czas NTP:</div>
+            <div id="pomiar">Wartość:</div>
+            <div id="apiStacja">api stacja></div>
+            <div id="apiPressure">api ciśnienie atmosferyczne</div>
+    </div>
+
+    <div id='title' >Praca Inżynierska Hubert Barczykowski oraz Paweł Kapeja</div>
+    
+    <div id='dom'>  
+        <div class='navi' id='navi1'>
+            <div class='temp' id="pomiar1">--:</div>
+            <div class='wilg' id='pomiarWilg1'>--:</div>
+            <div id='bt_up1' ></div>
+            <div id='temp1_nastawa'>21&deg;C</div>
+            <div id='bt_dw1' ></div>
+        </div>
+        <div class='navi' id='navi2'>
+            <div class='temp' id='pomiar2'>--&deg;C</div>
+            <div class='wilg' id='pomiarWilg2'>--</div>
+            <div id='bt_up2' ></div>
+            <div id='temp2_nastawa'>19&deg;C</div>
+            <div id='bt_dw2' ></div>
+        </div>
+        <div id='podlogowka1'></div>
+        <div id='podlogowka2'></div>
+    </div>
+
+    <div id='czujnik_zew'>
+        <div id='tz_txt'>Czujnik zewnętrzny</div>
+        <div class='temp' id='temp_zew'>--&deg;C</div>
+        <div class='wilg' id='wilg_zew'>--&%</div>
+    </div>
+</div>
+
+
+<script src="scripts"></script>
+<script src="scriptss"></script>
+</body>
+</html>
